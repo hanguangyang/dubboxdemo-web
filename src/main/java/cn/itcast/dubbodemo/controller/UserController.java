@@ -18,6 +18,7 @@ public class UserController {
 	@RequestMapping("/showName")
 	@ResponseBody
 	public String showName() {
+		System.out.println("dubboxdemo-web2 commit");
 		return userService.getName();
 	}
 
