@@ -19,6 +19,7 @@ public class UserController {
 	@ResponseBody
 	public String showName() {
 		System.out.println("dubboxdemo-web2 commit");
+		System.out.println("hot fix");
 		return userService.getName();
 	}
 
